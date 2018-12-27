@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+html,body{
+    height: 100%;
+    margin: 0 auto;
+    background: #f5f8f9;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.wrapper{
+    width: 794px;
+    margin: 0 auto;
+    padding: 40px 75px;
+    margin-top: 10px;
+    background: #fff;
+    box-shadow: 2px 0 29px rgba(225, 235, 238, 0.45);
+    overflow: hidden;
+}
+header{
+    font-weight: bold;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+section *:not(.name){
+    line-height: 24px;
+}
+section.personal-information>h1.name{
+    font-size: 32px;
+    color: #6aa84f;
+    background-color: transparent;
+    font-weight: bold;
+    padding-left: 5px;
+    text-decoration: none;
+}
+section.personal-information>p.job-intention{
+    margin-top: 14px;
+}
+section.block{
+    margin-top: 20px;
+}
+.block div.border{
+    width: 100%;
+    border-bottom:1px solid black; 
+    margin-bottom: 10px;
+}
+.block h2{
+    width: 17.2897%;
+    background-color: #000000;
+    text-align: left;
+    vertical-align: middle;
+    color: white;
+    font-size: 16px;
+    padding: 3px;
+    font-weight: bold;
+}
+section.skill{width:100%;}
+section.skill ol{
+    max-width: 65%;
+    margin: 0 auto;
+}
+section.work-experience ol,section.protfolio .description{
+    min-width: 82%;
+}
+section.work-experience ol li.space-between{
+    padding-top: 0px;
+}
+.pic{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
