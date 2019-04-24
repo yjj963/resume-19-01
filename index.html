@@ -7,6 +7,8 @@
     <title>resume</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media="print"
+    href="./css/print.css" />
 </head>
 <body>
     <div class="wrapper">
@@ -15,7 +17,7 @@
                 <h1 class="name">闫佳</h1>
                 <p class="job-intention">求职意向：Web前端开发
                 </p>
-            </section><hr>
+            </section>
             <section class="contact-information space-between">
                 <p class="telphone">159-0122-6963</p>
                 <p class="email">15901226963@163.com</p>
@@ -29,35 +31,33 @@
                 </div>
                 <ol>
                     <li>
-                        1、熟悉HTML5/CSS3的新功能，能够快速搭建app页面及动画的制作；
+                        1、熟悉HTML5/CSS3的新功能，能够高度还原UI设计稿与交互实现，能够快速搭建移动端页面及动画的制作；
                     </li>
                     <li>
-                        2、熟悉javascript，熟悉DOM编程;
+                        2、熟悉媒体查询，可以实现响应式
                     </li>
                     <li>
-                        3、熟悉jQuery、Zepto、iScroll 等主流框架，了解bootstrap；
-                    </li>
+                        3、移动端页面：会使用rem、vw/vh等技术制作适配不同设备的页面
+                    </li> 
                     <li>
                         4、熟练运用LESS/SASS开发兼容各大主流浏览器的Web页面；    
                     </li>
                     <li>
-                        5、熟悉Ajax/Json、了解php，能够配合后台实现应用模块的开发；
+                        5、熟悉javascript，熟悉DOM编程，熟悉jQuery;
                     </li>
                     <!-- <li>
-                        6、熟悉模块化编程，了解AMD和CMD规范，使用过requirejs和seajs；
-                    </li>
-                    <li>
-                        7、了解node.js与Angular.js;
-                    </li>
-                    <li>
-                        8、前端框架：理解MVC、MVVM等思想，可以熟练使用相关的库
-                    </li>
-                    <li>
-                        9、熟悉媒体查询，可以实现响应式
-                    </li>
-                    <li>
-                        10.移动端页面：会使用rem、vw/vh等技术制作适配手机设备的页面
+                        6、熟悉jQuery(、Zepto、iScroll、swiper) 等主流框架，(了解bootstrap)；
                     </li> -->
+                    <li>
+                        7、熟悉Ajax/Json、了解php、node.js，能够配合后台实现应用模块的开发；
+                    </li>
+                    es6的新增语法
+                    <!-- <li>
+                        6、熟悉模块化编程，了解AMD和CMD规范，使用过requirejs和seajs；
+                    </li>-->
+                    <li>
+                        8、熟悉模块化编程，理解MVC、MVVM等思想，熟悉vue，对生命周期，计算属性，vue指令，组件通信有深入了解
+                    </li>
                 </ol>
             </section>
             <section class="block protfolio">
@@ -65,31 +65,45 @@
                     <h2>项目展示</h2>
                 </div>
                 <div class="space-between">
-                    <p class="time">键盘导航</p>
+                    <p class="time"></p>
                     <div class="description">
                     <ol> 
                         <li>键盘导航：一个键盘形式的导航，不同的键对应不同的页面地址。不同的键对应不同的页面地址。
-                            <p style="text-indent:5em">使用js动态生成键盘、封装工具函数，使用css3进行制作，</p>
+                            使用js动态生成键盘、封装工具函数，使用css3进行制作，
                         </li>
                         <li>
-                            <a href="https://yjj963.github.io/nav/">预览链接</a>
-                            <a href="https://github.com/yjj963/nav">源码链接</a>
+                            预览链接:<a href="https://yjj963.github.io/nav/">https://yjj963.github.io/nav/</a>
                         </li>
-                        <li class="pic"><img src="./img/nav.jpg" alt="" style="width: 434px"></li>
+                        <li>
+                            源码链接:<a href="https://github.com/yjj963/nav">https://github.com/yjj963/nav</a>
+                        </li>
+                        <li class="pic"><img src="./img/nav.jpg" alt="" style="width: 524px"></li>
                     </ol>
                     <ol>                          
-                        <li>画板：	项目描述
+                        <li>画板：	可保存为图片，可切换画笔颜色，选择画笔粗细，还具有橡皮擦、清除画布功能
                         </li>
-                        <li>预览链接：</li>
-                        <li>源码链接：</li>
-                        <li class="pic"><img src="./img/canvas.jpg" alt="" srcset="" style="width: 434px"></li>
+                        <li>预览链接：<a href="https://yjj963.github.io/canvas/">https://yjj963.github.io/canvas/</a></li>
+                        <li>源码链接：<a href="https://github.com/yjj963/canvas">https://github.com/yjj963/canvas</a></li>
+                        <li class="pic"><img src="./img/canvas.jpg" alt="" srcset="" style="width: 524px"></li>
                     </ol>
                     <ol>                           
-                        <li>轮播：	项目描述
+                        <li>轮播：	一个苹果风格的轮播（有缝）
                         </li>
-                        <li>预览链接：</li>
-                        <li>源码链接：</li>
-                        <li class="pic"><img src="./img/apple-style-slides.jpg" alt="" style="width: 434px"></li>
+                        <li>预览链接：<a href="https://yjj963.github.io/slider/apple-slider.html">https://yjj963.github.io/slider/apple-slider.html</a></li>
+                        <li>源码链接：<a href="https://github.com/yjj963/slider">https://github.com/yjj963/slider</a></li>
+                        <li class="pic"><img src="./img/apple-style-slides.jpg" alt="" style="width: 524px"></li>
+                    </ol>
+                    <ol>                           
+                        <li>仿cnode社区：	使用到vue.js计算属性、
+                            vue.js的内置指令和事件的绑定、
+                            vue.js的自定义事件和触发、
+                            vue-router路由的跳转和监听、
+                            父子组件之间的数据传递
+                        </li>
+                        <li></li>
+                        <li>预览链接：<a href="https://yjj963.github.io/cnode-vue/index.html">https://yjj963.github.io/cnode-vue/index.html</a></li>
+                        <li>源码链接：<a href="https://github.com/yjj963/cnode-vue">https://github.com/yjj963/cnode-vue</a></li>
+                        <li class="pic"><img src="./img/cnode.jpg" alt="" style="width: 524px"></li>
                     </ol>
                     </div>
                 </div>

@@ -16,7 +16,7 @@ a{
 .wrapper{
     width: 794px;
     margin: 0 auto;
-    padding: 40px 75px;
+    padding: 60px 75px;
     margin-top: 10px;
     background: #fff;
     box-shadow: 2px 0 29px rgba(225, 235, 238, 0.45);
@@ -32,8 +32,11 @@ header{
 section *:not(.name){
     line-height: 24px;
 }
+section.personal-information{
+    border-bottom: 1px solid black;
+}
 section.personal-information>h1.name{
-    font-size: 32px;
+    font-size: 28px;
     color: #6aa84f;
     background-color: transparent;
     font-weight: bold;
@@ -42,6 +45,10 @@ section.personal-information>h1.name{
 }
 section.personal-information>p.job-intention{
     margin-top: 14px;
+    font-size: 15px;
+}
+section.contact-information p{
+    font-size: 15px;
 }
 section.block{
     margin-top: 20px;
@@ -63,16 +70,22 @@ section.block{
 }
 section.skill{width:100%;}
 section.skill ol{
-    max-width: 65%;
-    margin: 0 auto;
+    max-width: 82%;
+    margin-left:116px;
 }
 section.work-experience ol,section.protfolio .description{
-    min-width: 82%;
+    max-width: 82%;
+}
+.description ol{
+    padding-top: 40px;
+}
+.description a{
+    border-bottom: 1px solid #6aa84f;
 }
 section.work-experience ol li.space-between{
     padding-top: 0px;
 }
 .pic{
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
