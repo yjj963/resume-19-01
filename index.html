@@ -6,11 +6,11 @@
     <title>resume</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" media="print" href="./css/print.css" />
+    <!-- <link rel="stylesheet" media="print" href="./css/print.css" /> -->
     <style>
-    section.work-experience{
-    margin-top: 200px;
-    padding-top: 60px;
+    
+html{
+    font-size: 14px;
 }
     </style>
 </head>
@@ -35,25 +35,42 @@
                 </div>
                 <ol>
                     <li>
-                        1、熟悉HTML5/CSS3的新功能，熟悉es6语法，能够快速搭建移动端页面及动画的制作；
+                        1、熟悉
+                        <span class="light">HTML5/CSS3</span>
+                        的新功能，
+                        熟悉<span class="light">Es6</span>语法，
+                        能够快速搭建
+                        <span class="light">移动端页面</span>
+                        及
+                        <span class="light">动画</span>的制作；
                     </li>
                     <li>
-                        2、熟悉媒体查询，可以实现响应式，熟悉rem、vw，能够高度还原UI设计稿与交互实现
+                        2、熟悉媒体查询，可以实现
+                        <span class="light">响应式</span>，
+                        熟悉<span class="light">rem、vw</span>，
+                        能够高度还原UI设计稿与交互实现
                     </li>
                     <li>
-                        3、熟练运用LESS/SASS开发兼容各大主流浏览器的Web页面；
+                        3、熟练运用
+                        <span class="light">LESS/SASS</span>
+                        开发兼容各大主流浏览器的Web页面；
                     </li> 
                     <li>
-                        4、熟悉javascript，熟悉DOM编程，熟悉jQuery、iScroll、swiper等框架;
+                        4、熟悉<span class="light">javascript</span>，
+                        熟悉<span class="light">DOM编程</span>，
+                        熟悉<span class="light">jQuery、iScroll、swiper</span>等框架;
                     </li>
                     <li>
-                        5、熟悉Ajax/Json、了解php、node.js，能够配合后台实现应用模块的开发；
+                        5、熟悉<span class="light">Ajax/Json</span>
+                        能够配合后台实现应用模块的开发；
                     </li>
                     <li>
-                        6、熟悉模块化编程，了解AMD和CMD规范，使用过requirejs和seajs，理解MVC、MVVM等思想；
+                        6、熟悉<span class="light">模块化编程</span>，
+                        理解<span class="light">MVC、MVVM</span>等思想；
                     </li>
                     <li>
-                        7、熟悉vue，对生命周期，计算属性，vue指令，组件通信有深入了解
+                        7、熟悉<span class="light">vue</span>，
+                        对生命周期，计算属性，vue指令，组件通信，状态管理有深入了解
                     </li>
                 </ol>
             </section>
@@ -62,65 +79,103 @@
                     <h2>项目展示</h2>
                 </div>
                 <div class="space-between">
-                    <p class="time"></p>
                     <div class="description">
                     <ol> 
-                        <li>键盘导航：一个键盘形式的导航，不同的键对应不同的页面地址。不同的键对应不同的页面地址。
-                            使用js动态生成键盘、封装工具函数，使用css3进行制作，
+                        <li><b>导航网站：</b>
+                            可用作浏览器主页导航。按下键盘上的每一个键对应一个网址
+                            使用
+                            <span class="light">
+                                js生成键盘界面、
+                                appendChild对dom元素进行添加
+                            </span>，
+                            设计数据，二维数组存放所有的键、hash键值对的形式存放对应的网址、
+                            使用<span class="light">localStorage</span>
+                            存储用户编辑的数据,防止刷新页面数据消失
+                            使用<span class="light">JSON.parse</span>转化json字符串为json对象，
+                            
+                            封装工具函数，
+                            使用css的<span class="light">box-shadow、border-radius</span>等，进行样式制作
+                        </li>
+                        <!-- <li><b>预览链接</b> <b>源码链接</b></li> -->
+                        <li>
+                            <b>预览链接</b>:<a href="https://yjj963.github.io/nav/">https://yjj963.github.io/nav/</a>
                         </li>
                         <li>
-                            预览链接:<a href="https://yjj963.github.io/nav/">https://yjj963.github.io/nav/</a>
+                            <b>源码链接</b>:<a href="https://github.com/yjj963/nav">https://github.com/yjj963/nav</a>
                         </li>
-                        <li>
-                            源码链接:<a href="https://github.com/yjj963/nav">https://github.com/yjj963/nav</a>
-                        </li>
-                        <li class="pic"><img src="./img/nav.jpg" alt="" style="width: 524px"></li>
+                        <li class="pic"><img src="./img/nav.jpg" alt="" style="width: 292px"></li>
                     </ol>
                     <ol>                          
-                        <li>生气的皮卡丘：展示整个画皮卡丘的过程，可调速,主要是用css新属性(圆角边框，变换，阴影)组合来实现，绘画过程的播放用到了延时调用
-                        </li>
-                        <li>预览链接：<a href="https://yjj963.github.io/pikachu-angry">https://yjj963.github.io/pikachu-angry/</a></li>
-                        <li>源码链接：<a href="https://github.com/yjj963/pikachu-angry">https://github.com/yjj963/pikachu-angry</a></li>
-                        <li class="pic"><img src="./img/pikachu.jpg" alt="" srcset="" style="width: 524px"></li>
+                        <li><b>生气的皮卡丘：</b>
+                            播放整个画皮卡丘的过程和代码，可调速，使用了事件委托绑定事件，
+                            通过<span class="light">setTimeout</span>来实现代码和皮卡丘的陆续显示，
+                            使用<span class="light">substring</span>来截取要显示的字符串，
+                            使用<span class="light">scrollTop、scrollHeight</span>来滚动代码，
+                            主要是用css新属性(圆角边框，变换，阴影)组合来实现皮卡丘，
+                            使用<span class="light">transform、transform-origin</span>、实现各种变换，
+                            使用<span class="light">transtion</span>实现所有变换的过渡效果，
+                            @keyframes规则定义动画关键帧配合<span class="light">animation</span>实现动画                        </li>
+                        <!-- <li><b>预览链接</b> <b>源码链接</b></li> -->
+                        <li><b>预览链接</b>：<a href="https://yjj963.github.io/pikachu-angry">https://yjj963.github.io/pikachu-angry/</a></li>
+                        <li><b>源码链接</b>：<a href="https://github.com/yjj963/pikachu-angry">https://github.com/yjj963/pikachu-angry</a></li>
+                        <li class="pic"><img src="./img/pikachu.jpg" alt="" srcset="" style="width: 292px"></li>
                     </ol>
                     <!-- <ol>                          
                         <li>画板：	可保存为图片，可切换画笔颜色，选择画笔粗细，还具有橡皮擦、清除画布功能
                         </li>
-                        <li>预览链接：<a href="https://yjj963.github.io/canvas/">https://yjj963.github.io/canvas/</a></li>
-                        <li>源码链接：<a href="https://github.com/yjj963/canvas">https://github.com/yjj963/canvas</a></li>
-                        <li class="pic"><img src="./img/canvas.jpg" alt="" srcset="" style="width: 524px"></li>
+                        <li><b>预览链接</b>：<a href="https://yjj963.github.io/canvas/">https://yjj963.github.io/canvas/</a></li>
+                        <li><b>源码链接</b>：<a href="https://github.com/yjj963/canvas">https://github.com/yjj963/canvas</a></li>
+                        <li class="pic"><img src="./img/canvas.jpg" alt="" srcset="" style="width: 292px"></li>
                     </ol> -->
                     <!-- <ol>                           
                         <li>轮播：	一个苹果风格的轮播（有缝）
                         </li>
-                        <li>预览链接：<a href="https://yjj963.github.io/slider/apple-slider.html">https://yjj963.github.io/slider/apple-slider.html</a></li>
-                        <li>源码链接：<a href="https://github.com/yjj963/slider">https://github.com/yjj963/slider</a></li>
-                        <li class="pic"><img src="./img/apple-style-slides.jpg" alt="" style="width: 524px"></li>
+                        <li><b>预览链接</b>：<a href="https://yjj963.github.io/slider/apple-slider.html">https://yjj963.github.io/slider/apple-slider.html</a></li>
+                        <li><b>源码链接</b>：<a href="https://github.com/yjj963/slider">https://github.com/yjj963/slider</a></li>
+                        <li class="pic"><img src="./img/apple-style-slides.jpg" alt="" style="width: 292px"></li>
                     </ol> -->
                     <ol>                           
-                        <li>仿cnode社区：	使用到vue.js计算属性、
+                        <li><b>仿cnode社区：</b>	
+                            使用到vue.js<span class="light">计算属性</span>、
                             vue.js的内置指令和事件的绑定、
-                            vue.js的自定义事件和触发、
-                            vue-router路由的跳转和监听、
+                            vue.js的<span class="light">自定义事件和触发</span>、
+                            <span class="light">vue-router</span>路由的跳转和监听、
                             父子组件之间的数据传递
                         </li>
                         <li></li>
-                        <li>预览链接：<a href="https://yjj963.github.io/cnode-vue/index.html">https://yjj963.github.io/cnode-vue/index.html</a></li>
-                        <li>源码链接：<a href="https://github.com/yjj963/cnode-vue">https://github.com/yjj963/cnode-vue</a></li>
-                        <li class="pic"><img src="./img/cnode.jpg" alt="" style="width: 524px"></li>
+                        <!-- <li><b>预览链接</b> <b>源码链接</b></li> -->
+                        <li><b>预览链接</b>：<a href="https://yjj963.github.io/cnode-vue/index.html">https://yjj963.github.io/cnode-vue/index.html</a></li>
+                        <li><b>源码链接</b>：<a href="https://github.com/yjj963/cnode-vue">https://github.com/yjj963/cnode-vue</a></li>
+                        <li class="pic"><img src="./img/cnode.jpg" alt="" style="width: 292px"></li>
                     </ol>
                     <ol>                           
                         <li>
-                            重构有赞商城：
+                            <b>重构有赞商城：</b>
                             <p>用vue-cli配合webpack搭建项目</p>
-                            <p>实现了有赞商城的部分页面的tab切换，弹出层和遮罩层的显示与关闭等</p>
-                            <p>使用easymock生成的数据接口请求数据，处理数据，渲染页面，页面跳转</p>
-                            <p>使用基于 Vue.js 的移动端组件库mint-ui的Infinite scroll组件实现触底加载</p>
-                            <p>使用swiper实现banner轮播</p>
+                            <p>实现了有赞商城的部分页面的tab切换，
+                                弹出层和遮罩层的显示与关闭等
+                            </p>
+                            <p>使用
+                                <span class="light">easymock</span>
+                                生成的数据接口请求数据，处理数据，渲染页面，页面跳转
+                            </p>
+                            <p>使用基于 Vue.js 的移动端组件库
+                                <span class="light">mint-ui的Infinite scroll</span>
+                                组件实现触底加载
+                            </p>
+                            <p>使用
+                                <span class="light">swiper</span>
+                                实现banner轮播
+                            </p>
+                            <p>
+                                使用<span class="light">vuex</span>
+                                实现个人地址的增删改查的状态管理
+                            </p>
                         </li>
                         <li></li>
-                        <li>预览链接：<a href="https://yjj963.github.io/yz/">https://yjj963.github.io/yz/</a></li>
-                        <li>源码链接：<a href="https://github.com/yjj963/yz">https://github.com/yjj963/yz</a></li>
+                        <!-- <li><b>预览链接</b> <b>源码链接</b></li> -->
+                        <li><b>预览链接</b>：<a href="https://yjj963.github.io/yz/">https://yjj963.github.io/yz/</a></li>
+                        <li><b>源码链接</b>：<a href="https://github.com/yjj963/yz">https://github.com/yjj963/yz</a></li>
                         <!-- <li class="pic">
                             <img src="./img/yz-index.jpg" alt="" style="width: 243px">
                             <img src="./img/yz-category.jpg" alt="" style="width: 243px">
@@ -143,19 +198,17 @@
                             <p class="jobname">前端开发工程师</p>
                         </li>
                         <li>
-                            集群操作系统     b/s   用于实现高性能计算(HPC)，
+                            集群操作系统        用于高性能计算(HPC)，
                         </li>
                         <li>
-                            一个类似桌面的界面，模块中列表居多
+                            页面制作中列表居多，使用css的float等实现多个页面的排版布局，
                         </li>
                         <li>
-                            使用css的float等实现多个模块的排版布局，
+                            使用<span class="light">JavaScript，jquery</span>实现页面交互效果，
+                            如分页、进度条、弹出框、拖拽、tab切换。
                         </li>
                         <li>
-                            使用JavaScript，jquery实现页面交互效果，如分页、进度条、弹出框、拖拽。
-                        </li>
-                        <li>
-                            使用ajax技术和后台工程师提供的数据接口完成有效对接。
+                            使用<span class="light">ajax</span>和后台工程师提供的数据接口完成有效对接。
                         </li>
                         <li>
                             bug修复

@@ -16,7 +16,8 @@ a{
 .wrapper{
     width: 794px;
     margin: 0 auto;
-    padding: 60px 75px;
+    padding: 35px 75px;
+    padding-bottom: 0;
     margin-top: 10px;
     background: #fff;
     box-shadow: 2px 0 29px rgba(225, 235, 238, 0.45);
@@ -69,15 +70,23 @@ section.block{
     font-weight: bold;
 }
 section.skill{width:100%;}
+.light{
+    color:#6aa84f;
+    font-weight: bold;
+}
 section.skill ol{
-    max-width: 82%;
-    margin-left:116px;
+    width: 95%;
+    margin-left: 5%;
 }
-section.work-experience ol,section.protfolio .description{
-    max-width: 82%;
+section.protfolio ol{
+    width: 95%;
+    margin-left: 5%;
 }
-.description ol{
-    padding-top: 40px;
+section.work-experience{
+    margin-top: 50px;
+}
+section.work-experience .description{
+    max-width: 82%;
 }
 .description a{
     border-bottom: 1px solid #6aa84f;
